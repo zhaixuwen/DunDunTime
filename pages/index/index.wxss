@@ -1,0 +1,50 @@
+view {
+  float: left
+}
+
+.timeFrame {
+  background: white;
+  height: 200rpx;
+  font-size: 50rpx;
+  margin-top: 10rpx;
+}
+
+.text {
+  width: 350rpx;
+  background: white;
+  text-align: right
+}
+
+.halfHead {
+  width: 80rpx;
+  background: white;
+  text-align: right
+}
+
+.halfPoint {
+  background: white;
+  width: 40rpx;
+  text-align: center
+}
+
+.halfEnd {
+  background: white;
+  width: 200rpx;
+  text-align: left
+}
+
+.buttonArea {
+  background: white;
+  margin-left: 15rpx
+}
+
+button {
+  width: 160rpx;
+  height: 160rpx;
+  float: left;
+  margin: 5px;
+}
+
+#playArea {
+  background: white;
+}

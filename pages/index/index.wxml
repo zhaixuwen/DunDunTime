@@ -1,0 +1,39 @@
+<view class="timeFrame">
+  <view class="text">开始时间</view>
+  <view class="halfHead">{{startTimeHead}}</view>
+  <view class="halfPoint"> : </view>
+  <view class="halfEnd">{{startTimeEnd}}</view>
+</view>
+<view class="timeFrame">
+  <view class="text">结束时间</view>
+  <view class="halfHead">{{endTimeHead}}</view>
+  <view class="halfPoint"> : </view>
+  <view class="halfEnd">{{endTimeEnd}}</view>
+</view>
+<view class="timeFrame">
+  <view class="text">间隔时长</view>
+  <view class="halfHead">{{blankTimeHead}}</view>
+  <view class="halfPoint"> : </view>
+  <view class="halfEnd">{{blankTimeEnd}}</view>
+</view>
+
+<view id="playArea">
+  <view class="buttonArea">
+    <button bindtap="sendNumber" data-text="7">7</button>
+    <button bindtap="sendNumber" data-text="8">8</button>
+    <button bindtap="sendNumber" data-text="9">9</button>
+    <button bindtap="sendNumber" data-text="0">0</button>
+  </view>
+  <view class="buttonArea">
+    <button bindtap="sendNumber" data-text="4">4</button>
+    <button bindtap="sendNumber" data-text="5">5</button>
+    <button bindtap="sendNumber" data-text="6">6</button>
+    <button bindtap="clearAll">清空</button>
+  </view>
+  <view class="buttonArea">
+    <button bindtap="sendNumber" data-text="1">1</button>
+    <button bindtap="sendNumber" data-text="2">2</button>
+    <button bindtap="sendNumber" data-text="3">3</button>
+    <button bindtap="calcTime">完成</button>
+  </view>
+</view>
