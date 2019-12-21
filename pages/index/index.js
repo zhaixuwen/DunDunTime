@@ -84,6 +84,9 @@ Page({
     var lateTime = parseInt(this.data.endTimeHead) * 60 + parseInt(this.data.endTimeEnd)
     //计算两个时间之间的分钟差
     var middleTime = lateTime - earlyTime
+    if (middleTime <= 0) {
+      middleTime = middleTime + 1440
+    }
     var hour = parseInt(middleTime / 60)
     var minute = middleTime % 60
     //若小时数是一位数则在前面补零
